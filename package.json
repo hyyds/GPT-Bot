@@ -12,12 +12,7 @@
     "url": "git+https://github.com/hyyds/wxbot.git"
   },
   "devDependencies": {
-    "axios": "^0.21.1",
-    "chatgpt": "^3.5.2",
-    "dayjs": "^1.11.5",
-    "dotenv": "^10.0.0",
     "download": "^8.0.0",
-    "express": "^4.17.1",
     "node-cron": "^3.0.0",
     "puppeteer": "^13.1.2",
     "ws": "^7.4.3"
@@ -29,10 +24,6 @@
   },
   "homepage": "https://github.com/hyyds/wxbot#readme",
   "dependencies": {
-    "fetch-cookie": "^2.1.0",
-    "https-proxy-agent": "^5.0.1",
-    "node-fetch": "^3.3.0",
-    "prettier": "^2.8.1",
-    "tencentcloud-sdk-nodejs": "^4.0.505"
+    "prettier": "^2.8.1"
   }
 }
