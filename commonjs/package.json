@@ -1,0 +1,30 @@
+{
+  "name": "wxbot",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "wxbot",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyyds/wxbot.git"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "ws": "^7.4.3",
+    "dayjs": "^1.11.5",
+    "express": "^4.17.1",
+    "node-cron": "^3.0.0",
+    "download": "^8.0.0",
+    "puppeteer": "^13.1.2",
+    "dotenv": "^10.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyyds/wxbot/issues"
+  },
+  "homepage": "https://github.com/hyyds/wxbot#readme"
+}
