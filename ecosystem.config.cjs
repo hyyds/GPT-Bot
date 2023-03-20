@@ -3,7 +3,7 @@ module.exports = {
         {
             name: 'wxbot',
             args: '5555',
-            script: './index.js',
+            script: './bot.js',
             log_date_format: 'YYYY-MM-DD HH:mm Z'
         }
     ]
