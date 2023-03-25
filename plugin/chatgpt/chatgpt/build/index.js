@@ -1042,7 +1042,7 @@ async function getBrowser(opts = {}) {
     puppeteerArgs.push(`--proxy-server=${ipPort}`);
   }
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     args: puppeteerArgs,
     ignoreDefaultArgs: [
       "--disable-extensions",

@@ -167,7 +167,7 @@ export function handleFriendMessageCenter(item) {
         return
     }
 
-    ws.send(sendTxtMsg(wxId, `Hello！${text}\n我是Nara~获取更多高级玩法可以回复指令'gg'查看详情`))
+    ws.send(sendTxtMsg(wxId, `Hello！${text}\n我是文心~获取更多高级玩法可以回复指令'gg'查看详情`))
     // 刷新 wxUserList
     console.log('开始刷新wxUserList')
 
