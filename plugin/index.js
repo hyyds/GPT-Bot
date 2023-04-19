@@ -20,7 +20,7 @@ class App {
         this.command = {
             g: chatgpt
         }
-        this.interactionFunc = ['chatgpt',]
+        this.interactionFunc = ['chatgpt']
         this.root = []
         this.wxId = wxId
         this.roomUserId = wxId1 || wxId
