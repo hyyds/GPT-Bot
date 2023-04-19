@@ -5,7 +5,7 @@
  * @ Modified time: 2022/9/7 15:49
  * @ Description: 所有插件处理中心
  */
-import { user, ws, wxUserList, __dirname, currentBotInfo } from '../bot.js'
+import { user, ws, wxUserList, __dirname, currentBotInfo,axiosInstance } from '../bot.js'
 import { getOtherPersonalInfo, getConcatList, wait, randomEmo } from '../utils/index.js'
 import { sendTxtMsg } from '../utils/index.js'
 import chatgpt from './chatgpt/index.js'
@@ -64,6 +64,7 @@ class App {
                 root: this.root,
                 ws,
                 __dirname,
+                axiosInstance,
                 currentBotInfo,
                 wxUserList
             }
@@ -89,6 +90,7 @@ class App {
                 wxUserList,
                 currentBotInfo,
                 __dirname,
+                axiosInstance,
                 wxId: this.wxId,
                 roomUserId: this.roomUserId,
                 content: this.content,

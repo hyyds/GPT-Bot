@@ -6,6 +6,7 @@
  * @ Description: wx机器人
  */
 import WebSocket from 'ws'
+import axios from 'axios'
 import { getConcatList, getPersonalInfo } from './utils/index.js'
 import {
     handleTxtMessageCenter,
@@ -33,6 +34,12 @@ export const __filename = fileURLToPath(import.meta.url)
 export const __dirname = path.dirname(__filename)
 export let currentBotInfo = {}
 export let wxUserList = []
+
+export const axiosInstance = axios.create({
+    baseURL: 'https://jd-bus.icu',
+    timeout: 5 * 60 * 1000
+})
+
 export function bot() {
     // 打开ws连接微信
     ws.on('open', () => {
