@@ -12,10 +12,8 @@
     "url": "git+https://github.com/hyyds/wxbot.git"
   },
   "devDependencies": {
-    "download": "^8.0.0",
-    "node-cron": "^3.0.0",
-    "puppeteer": "^13.1.2",
-    "ws": "^7.4.3"
+    "ws": "^7.4.3",
+    "axios": "^1.3.5"
   },
   "author": "",
   "license": "ISC",
